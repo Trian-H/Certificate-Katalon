@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TS009-Close Menu Saucedemo</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>442f24b5-5d4b-48ad-ab7c-20265519ff9d</testCaseGuid>
+</TestCaseEntity>
