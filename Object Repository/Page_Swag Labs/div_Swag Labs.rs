@@ -6,19 +6,19 @@
    <elementGuidId>1628be21-beb3-4433-9e74-ffd102f57beb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.app_logo</value>
+         <key>XPATH</key>
+         <value>//div[@id='header_container']/div/div[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='header_container']/div/div[2]/div</value>
+         <key>CSS</key>
+         <value>div.header_label</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:text=&quot;Swag Labs&quot;i</value>
+         <value>[data-test=&quot;primary-header&quot;] div >> internal:has-text=&quot;Swag Labs&quot;i >> nth=0</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,15 +29,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>137c8c4b-5a05-4c26-8b8c-2a69519c74f2</webElementGuid>
+      <webElementGuid>1d10cd4b-57d4-4a6d-8fea-66b7afe65625</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>app_logo</value>
-      <webElementGuid>1bae9204-290d-43c3-94ae-ce7a292201db</webElementGuid>
+      <value>header_label</value>
+      <webElementGuid>27fa539f-0411-42ff-a960-61c77c60a3da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,18 +45,66 @@
       <name>text</name>
       <type>Main</type>
       <value>Swag Labs</value>
-      <webElementGuid>15d13584-845c-456d-a4ea-5b59cd95b601</webElementGuid>
+      <webElementGuid>910bf0a9-bc96-46ef-b4ca-fc77bff7976f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;header_container&quot;)/div[@class=&quot;primary_header&quot;]/div[@class=&quot;header_label&quot;]/div[@class=&quot;app_logo&quot;]</value>
-      <webElementGuid>3bb3da04-e126-457e-8a25-30cda579413e</webElementGuid>
+      <value>id(&quot;header_container&quot;)/div[@class=&quot;primary_header&quot;]/div[@class=&quot;header_label&quot;]</value>
+      <webElementGuid>abdd882b-6922-4a1c-aa88-9f21899a0291</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='header_container']/div/div[2]</value>
+      <webElementGuid>1da93bcd-60a4-4638-b098-aec46cf96cf6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close Menu'])[1]/following::div[1]</value>
+      <webElementGuid>5a00d251-ad97-4365-a3c3-57c17b18fd8a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='About'])[1]/following::div[3]</value>
+      <webElementGuid>67cd9bed-f97a-4d35-af33-e4e64a8c99d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Products'])[1]/preceding::div[3]</value>
+      <webElementGuid>fe55091a-2572-4663-b96e-9166ccb227a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/div/div[2]</value>
+      <webElementGuid>7296413c-0c0c-429b-a1bc-6972aaf366cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Swag Labs' or . = 'Swag Labs')]</value>
+      <webElementGuid>5df23da3-3185-404c-8fdc-0d059b547d18</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
@@ -102,13 +150,5 @@
       <type>Main</type>
       <value>//div/div/div/div/div/div[2]/div</value>
       <webElementGuid>9534c095-8f90-4bd6-a121-da36608c9dcc</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//div[(text() = 'Swag Labs' or . = 'Swag Labs')]</value>
-      <webElementGuid>9f22c1a3-4dbb-4439-9b47-9e1d1b2472f6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
