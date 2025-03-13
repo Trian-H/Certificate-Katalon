@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TS007-Filter Ascending A-Z Saucedemo</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0141f4f4-7060-4f1c-a7bb-3c14dc1b186f</testCaseGuid>
+</TestCaseEntity>

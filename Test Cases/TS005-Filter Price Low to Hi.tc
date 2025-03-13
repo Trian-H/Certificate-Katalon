@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TS005-Filter Price Low to Hi</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b6bfdc62-ae1c-4a3a-afc8-02769fc51044</testCaseGuid>
+</TestCaseEntity>
