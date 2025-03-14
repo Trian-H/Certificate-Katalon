@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TS013-Login,payment,logout</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3bd838dd-cf98-4cd9-911f-0e6dcadb811d</testCaseGuid>
+</TestCaseEntity>
