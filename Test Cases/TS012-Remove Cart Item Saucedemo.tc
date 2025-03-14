@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TS012-Remove Cart Item Saucedemo</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>caa38518-5c77-4fb2-9bf9-c4a201917d66</testCaseGuid>
+</TestCaseEntity>

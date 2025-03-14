@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TS001,010</name>
+   <name>Change Tab DemoQA</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,19 +10,12 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>8f215b68-950b-41f6-b6e6-38e833328fd6</testSuiteGuid>
+   <testSuiteGuid>c0f2963f-f18f-47e9-987a-7a8fc6622118</testSuiteGuid>
    <testCaseLink>
-      <guid>600c682e-470d-4141-8aa0-b2b996c11e16</guid>
+      <guid>60e39e72-42ed-4c86-bb30-b2118bea421e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TS001-Login</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>c5fdea48-2f14-488d-8e8d-9fd830ca7367</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/TS010-Logout Saucedemo</testCaseId>
+      <testCaseId>Test Cases/TS011-Change Tab demoQA</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
